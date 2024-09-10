@@ -5,3 +5,5 @@
 fp-info-cache
 *.config.ini
 production
+~*
+*.round-tracks-config
