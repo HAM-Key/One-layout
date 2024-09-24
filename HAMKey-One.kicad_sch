@@ -3072,6 +3072,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -7415,7 +7494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 250.19 143.51 0)
 			(effects
 				(font
@@ -7884,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 250.19 158.75 0)
 			(effects
 				(font
@@ -8658,6 +8737,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 273.05 54.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d32218-f9e9-4a8e-987a-c90c49ca3c2e")
+		(property "Reference" "FID2"
+			(at 275.59 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 275.59 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xianii:marker1"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HAMKey-One"
+				(path "/613fe7f2-55f8-4770-afca-1b2f2a94adcb"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 121.92 90)
 		(unit 1)
@@ -9424,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 250.19 153.67 0)
 			(effects
 				(font
@@ -10089,7 +10232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "390R"
 			(at 267.462 144.78 90)
 			(effects
 				(font
@@ -10407,6 +10550,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 273.05 49.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba21c80-b11b-4097-945e-c185e5820154")
+		(property "Reference" "FID1"
+			(at 275.59 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 275.59 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xianii:marker1"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/613fe7f2-55f8-4770-afca-1b2f2a94adcb"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 200.66 97.79 0)
 		(unit 1)
@@ -10431,7 +10638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nigh_Library:SS12D06G5"
+		(property "Footprint" "xianii:SS12D06G5"
 			(at 200.66 97.79 0)
 			(effects
 				(font
@@ -10762,7 +10969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "47R"
 			(at 267.462 149.86 90)
 			(effects
 				(font
@@ -12758,8 +12965,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 243.84 21.59 0)
+		(property "Value" "ME6210A33M3G"
+			(at 239.268 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +13170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "390R"
 			(at 267.462 160.02 90)
 			(effects
 				(font
@@ -13309,7 +13516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nigh_Library:Type-C-3.2H"
+		(property "Footprint" "xianii:Type-C-3.2H"
 			(at 69.85 165.1 0)
 			(effects
 				(font
@@ -13797,7 +14004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "75R"
 			(at 267.462 154.94 90)
 			(effects
 				(font
@@ -13942,7 +14149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 250.19 148.59 0)
 			(effects
 				(font
